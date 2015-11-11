@@ -14,6 +14,8 @@
 		FA97A1C51BF3A25C001BAFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA97A1C31BF3A25C001BAFFF /* LaunchScreen.storyboard */; };
 		FA97A1D01BF3A25C001BAFFF /* GenericViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97A1CF1BF3A25C001BAFFF /* GenericViewTests.swift */; };
 		FA97A1DB1BF3A25C001BAFFF /* GenericViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97A1DA1BF3A25C001BAFFF /* GenericViewUITests.swift */; };
+		FA97A1E91BF3A2C7001BAFFF /* GenericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97A1E81BF3A2C7001BAFFF /* GenericView.swift */; };
+		FA97A1EB1BF3A3A7001BAFFF /* GenericView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA97A1EA1BF3A3A7001BAFFF /* GenericView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FA97A1D61BF3A25C001BAFFF /* GenericViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA97A1DA1BF3A25C001BAFFF /* GenericViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewUITests.swift; sourceTree = "<group>"; };
 		FA97A1DC1BF3A25C001BAFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA97A1E81BF3A2C7001BAFFF /* GenericView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericView.swift; sourceTree = "<group>"; };
+		FA97A1EA1BF3A3A7001BAFFF /* GenericView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenericView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				FA97A1BA1BF3A25C001BAFFF /* AppDelegate.swift */,
 				FA97A1BC1BF3A25C001BAFFF /* ViewController.swift */,
 				FA97A1BE1BF3A25C001BAFFF /* Main.storyboard */,
+				FA97A1E81BF3A2C7001BAFFF /* GenericView.swift */,
+				FA97A1EA1BF3A3A7001BAFFF /* GenericView.xib */,
 				FA97A1C11BF3A25C001BAFFF /* Assets.xcassets */,
 				FA97A1C31BF3A25C001BAFFF /* LaunchScreen.storyboard */,
 				FA97A1C61BF3A25C001BAFFF /* Info.plist */,
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA97A1EB1BF3A3A7001BAFFF /* GenericView.xib in Resources */,
 				FA97A1C51BF3A25C001BAFFF /* LaunchScreen.storyboard in Resources */,
 				FA97A1C21BF3A25C001BAFFF /* Assets.xcassets in Resources */,
 				FA97A1C01BF3A25C001BAFFF /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA97A1E91BF3A2C7001BAFFF /* GenericView.swift in Sources */,
 				FA97A1BD1BF3A25C001BAFFF /* ViewController.swift in Sources */,
 				FA97A1BB1BF3A25C001BAFFF /* AppDelegate.swift in Sources */,
 			);

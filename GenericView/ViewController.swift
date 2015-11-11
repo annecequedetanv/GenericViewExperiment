@@ -8,18 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+struct ViewModel: ColorProtocol {
+    var color: UIColor { return .purpleColor() }
+}
 
+class ViewController: UIViewController {
+    
+    let genericView: GenericView<ViewModel> = {
+        let view = NSBundle.mainBundle().loadNibNamed("GenericView", owner: nil, options: nil)[0]
+        return view as! GenericView<ViewModel>
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        genericView.configure(ViewModel())
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
